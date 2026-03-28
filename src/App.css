@@ -1,0 +1,35 @@
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-container input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #646cff;
+  background: #1a1a1a;
+  color: white;
+}
+
+.link {
+  color: #646cff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.back-btn {
+  margin-top: 20px;
+  background: transparent;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
